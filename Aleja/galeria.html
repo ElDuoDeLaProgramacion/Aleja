@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Interfaz Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: 	#856a11;
+            background-color: #009ee731;
+        }
+        header {
+            background-color: 	#F5F5DC;
+            color: rgb(0, 0, 0);
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; 
+            align-items: center;
+        }
+
+        .image-item {
+            display: flex;
+            align-items: center; 
+            gap: 20px; 
+            justify-content: flex-start; 
+            margin-bottom: 20px; 
+        }
+
+        .image-item img {
+            max-width: 450px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .image-item p {
+            margin: 0;
+            max-width: 400px; 
+        }
+
+        footer {
+            background-color: 	#F5F5DC;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 1rem;
+            
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Los eventos mas importantes en mi vida</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2 style="text-align: center;">Galería de Imágenes</h2>
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="../Aleja/Imagenes/Canada.png" alt="Imagen 1">
+                    <p>Fui a canadá de intercambio sola fue una experiencia increíble ya que aprendí a cómo andar por mi cuenta.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Aleja/Imagenes/Cumple.png" alt="Imagen 2">
+                    <p>Fue la cena de mis XV invité a mi amiga más cercana y de resto familia este fue el día antes de cumplirlos como tal.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Aleja/Imagenes/SanPedro.png" alt="Imagen 3">
+                    <p>Este san pedro entablé más conexión con mis amigas y conocí a alguien que fue muy especial en mi vida.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Aleja/Imagenes/Perrito.png" alt="Imagen 3">
+                    <p>Fue el primer día en el que me regalaron a mi perrito me gusta esta foto porque se ve muy chiquito y me hace recordar como era antes.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Aleja/Imagenes/Regalo.png" alt="Imagen 3">
+                    <p>Este obsequio me lo dio una persona que quiero y adoro muchísimo me ha ayudado a superar muchos problemas</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; :)</p>
+    </footer>
+</body>
+</html>
